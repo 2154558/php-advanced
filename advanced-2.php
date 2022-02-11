@@ -20,20 +20,21 @@
         <body>
         <body style="background-color: <?php echo $_POST['achtergrondskleur']; ?>;">
         <body style="text-color": <?php echo $_POST['kleur']; ?>;">
-        <body style="table": <?php echo $_POST['tabeldikte']; ?>;">
-        <body style="padding": <?php echo $_POST['padding']; ?>;">
         
         <?php
         $kaas = array("voornaam"=>"Kevin", "achternaam"=>"Bos", "leeftijd"=>"16");
 
-            function maakrij($value, $kazen){
-                echo "<table><tr><th>$value</th></tr></table>";
+            function maakrij($value, $kaas){
+                echo "<tr><th>".$value."</th><th>".$kaas."</th></tr>";
             };
-
+            ?>
+            <table>
+            <?php
             foreach($kaas as $values => $naam){
-                maakrij($values, $kaas);
+                maakrij($values, $naam);
             }
+
     ?>
-            </form>    
+           </table>    
         </body>
     </html>
