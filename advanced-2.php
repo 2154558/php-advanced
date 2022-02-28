@@ -12,20 +12,18 @@
 
     table, tr, td {
         border: <?php echo $_POST['tabeldikte']; ?> solid black;
-        padding: <?php echo $_POST['tabeldikte']; ?>;
+        padding: <?php echo $_POST['Padding']; ?>;
         color: <?php echo $_POST['kleur']; ?>;
     }
     </style>
 
-        <body>
-        <body style="background-color: <?php echo $_POST['achtergrondskleur']; ?>;">
-        <body style="text-color": <?php echo $_POST['kleur']; ?>;">
+        <body style="text-color": <?php echo $_POST['kleur']; ?>;" style="background-color: <?php echo $_POST['achtergrondskleur']; ?>;">
         
         <?php
         $kaas = array("voornaam"=>"Kevin", "achternaam"=>"Bos", "leeftijd"=>"16");
 
             function maakrij($value, $kaas){
-                echo "<tr><th>".$value."</th><th>".$kaas."</th></tr>";
+                echo "<tr><td>".$value."</td><td>".$kaas."</td></tr>";
             };
             ?>
             <table>
@@ -34,7 +32,7 @@
                 maakrij($values, $naam);
             }
 
-    ?>
+            ?>
            </table>    
         </body>
     </html>

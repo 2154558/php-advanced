@@ -30,19 +30,19 @@
             </select> 
             <br>
             <label for="tabeldikte">kies een tabeldikte:</label>
-            <select name="tabeldikte" id="achtergrondskleur">
+            <select name="tabeldikte" id="tabeldikte">
               <option name="tabeldikte" value="1px">1px</option>
-              <option name="tabeldikte" value="2px">2px</option>
               <option name="tabeldikte" value="3px">3px</option>
-              <option name="tabeldikte" value="4px">4px</option>
+              <option name="tabeldikte" value="6px">6px</option>
+              <option name="tabeldikte" value="9px">9px</option>
             </select> 
             <br>
-            <label for="padding">kies padding:</label>
-            <select name="padding" id="achtergrondskleur">
+            <label for="padding">kies een padding:</label>
+            <select name="padding" id="Padding">
               <option name="padding" value="1px">1px</option>
-              <option name="padding" value="2px">2px</option>
-              <option name="padding" value="3px">3px</option>
-              <option name="padding" value="4px">4px</option>
+              <option name="padding" value="5px">5px</option>
+              <option name="padding" value="10px">10px</option>
+              <option name="padding" value="20px">20px</option>
             </select> 
              
 
