@@ -37,12 +37,12 @@
               <option name="tabeldikte" value="9px">9px</option>
             </select> 
             <br>
-            <label for="padding">kies een padding:</label>
-            <select name="padding" id="Padding">
-              <option name="padding" value="1px">1px</option>
-              <option name="padding" value="5px">5px</option>
-              <option name="padding" value="10px">10px</option>
-              <option name="padding" value="20px">20px</option>
+            <label for="Padding">kies de ruimte tussen de cellen:</label>
+            <select name="Padding" id="Padding">
+              <option name="Padding" value="1px">1px</option>
+              <option name="Padding" value="5px">5px</option>
+              <option name="Padding" value="10px">10px</option>
+              <option name="Padding" value="20px">20px</option>
             </select> 
              
 

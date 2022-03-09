@@ -12,7 +12,7 @@
 
     table, tr, td {
         border: <?php echo $_POST['tabeldikte']; ?> solid black;
-        padding: <?php echo $_POST['Padding']; ?>;
+        border-spacing: <?php echo $_POST['Padding']; ?>;
         color: <?php echo $_POST['kleur']; ?>;
     }
     </style>
